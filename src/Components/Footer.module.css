@@ -1,0 +1,257 @@
+.Footer_Main {
+  display: grid;
+  grid-template-columns: 27% 73%;
+  padding: 40px 150px;
+  gap: 50px;
+}
+.Footer_One {
+  height: 100%;
+  zoom: 0.9;
+}
+.Footer_One_Head {
+  text-align: left;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+.Footer_One_Child {
+  font-size: 14px;
+  text-align: left;
+  margin: 7px 0px;
+}
+.Footer_One_Child_box,
+.Footer_One_Child_box2 {
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.Footer_One_Child_box input,
+.Footer_One_Child_box2 input {
+  border: 1px solid gray;
+  font-size: 15px;
+  padding: 7px 10px;
+  width: 90%;
+  margin-right: 98px;
+  color: gray;
+}
+.Footer_One_Child_box input:hover {
+  border: 1px dashed grey;
+}
+.Footer_One_Child_submit {
+  background-color: #333333;
+  color: white;
+  padding: 9.5px 18px;
+  font-size: 13px;
+  margin-left: -22px;
+}
+.Footer_One_Child_submit:hover {
+  background-color: #f2f2f2;
+  color: black;
+  cursor: pointer;
+}
+.Footer_info {
+  font-size: 30px;
+  padding: 7px;
+  background-color: #f2f2f2;
+  color: #666666;
+  border-radius: 20px;
+  margin-right: 43px;
+  margin-left: -17px;
+  margin-top: 3px;
+}
+.Footer_info:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.Footer_One_Icons_Main {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+.Footer_One_Icons {
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  font-size: 28px;
+}
+.Facebook {
+  color: #005699;
+  font-size: 28px;
+}
+.Facebook:hover {
+  cursor: pointer;
+}
+.Twitter {
+  color: #54a9e9;
+  font-size: 32px;
+}
+.Twitter:hover {
+  cursor: pointer;
+}
+.Instagram {
+  color: white;
+  background-color: #0a548d;
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 3px;
+  font-size: 30px;
+}
+.Instagram:hover {
+  cursor: pointer;
+}
+.TikTok {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  padding: 3px;
+  font-size: 28px;
+  border-radius: 30px;
+}
+.TikTok:hover {
+  cursor: pointer;
+}
+.Youtube {
+  background-color: red;
+  color: white;
+  border-radius: 30px;
+  padding: 3px;
+  font-size: 28px;
+}
+.Youtube:hover {
+  cursor: pointer;
+}
+.pin {
+  color: rgb(173, 11, 11);
+}
+.pin:hover {
+  cursor: pointer;
+}
+.Footer_Two {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  font-size: 14px;
+  color: #333333;
+  text-align: left;
+  margin: auto;
+}
+.Footer_Two_columnHead {
+  font-size: 12px;
+  font-weight: bold;
+  color: #333333;
+  margin-left: 7px;
+}
+.Footer_Two_columnChild {
+  padding: 7px;
+}
+.Footer_Two_columnChild:hover {
+  color: #005699;
+  cursor: pointer;
+}
+.Footer_Main2 {
+  font-size: 14px;
+}
+
+span {
+  font-size: 14px;
+  color: #333333;
+}
+
+.Footer_icons {
+  font-size: 20px;
+}
+.Footer_Main2 {
+  background-color: #f2f2f2;
+}
+.Footer_Main21 {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 8% 8% 12% 24% 33% 17%;
+  margin-top: 30px;
+  zoom: 0.8;
+  padding-top: 30px;
+}
+.Footer_Main22 {
+  display: grid;
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+  zoom: 0.8;
+  grid-template-columns: 40% 60%;
+}
+.Footer_Main2_child {
+  border: 0.5px solid grey;
+  padding: 0px 5px;
+  border-top: none;
+  border-bottom: none;
+  color: #333333;
+}
+.Footer_Main2_child:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.Footer_Main3 {
+  color: #666666;
+  margin-top: 30px;
+}
+hr {
+  color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+}
+.Footer_media_columns {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .Footer_Two {
+    display: none;
+  }
+  .Footer_Main {
+    display: block;
+    padding: 10px 20px;
+  }
+
+  .Footer_One_Child_box input {
+    width: 100%;
+  }
+  .Footer_info {
+    margin-left: 10px;
+  }
+  .Footer_One_Child_box2 input {
+    width: 100%;
+  }
+  .Footer_One_Icons {
+    width: 80%;
+  }
+  .Footer_Main3 {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .Footer_Main21,
+  .Footer_Main22 {
+    width: 98%;
+    display: block;
+    text-align: left;
+  }
+  .Footer_Main21 div,
+  .Footer_Main22 div {
+    margin-top: 5px;
+  }
+  .Footer_Main2_child {
+    border: 0px solid grey;
+    padding: 0px 15px;
+    font-size: 13px;
+  }
+  .Footer_media_columns {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+}

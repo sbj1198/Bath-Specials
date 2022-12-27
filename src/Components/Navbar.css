@@ -1,0 +1,177 @@
+.slid {
+  width: 100%;
+  margin-top: -25px;
+  height: 45px;
+  background-color: #dbdaf0;
+  color: rgb(17, 31, 77);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: 700;
+}
+
+.navbar {
+  max-width: 100%;
+}
+.drawer {
+  display: none;
+}
+.navbar-links {
+  width: 80%;
+  height: 40px;
+  text-transform: uppercase;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 0.5px solid rgb(206, 206, 206);
+  font-weight: 500;
+}
+.logosection {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.logosection > div {
+  width: 33.33%;
+}
+.logo {
+  width: 250px;
+  margin: auto;
+}
+.signupsection {
+  justify-self: flex-end;
+}
+.resdrawer {
+  width: 80%;
+  height: 100%;
+
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+}
+.norespon {
+  display: none;
+}
+.closebuton {
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar-links-drawer {
+  text-align: left;
+}
+.logbtn,
+.favbtn,
+.cartbtn-0nav {
+  color: #015394;
+  margin-left: 25px;
+  border: 0;
+  font-size: 1.5rem;
+  background-color: rgb(255, 255, 255);
+}
+.pagelinks-cat012 {
+  height: 40px;
+  display: flex;
+  font-size: 0.9rem;
+  align-items: center;
+  justify-content: center;
+  color: #000102;
+  text-decoration: none;
+}
+.pagelinks-cat012:hover {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 3px solid #015394;
+}
+.btnclosedrawer-987 {
+  height: 35px;
+  width: 35px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  margin-right: 15px;
+}
+.navbar-links-drawer > h4 {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  border-bottom: 1px solid #a4bbce;
+}
+.drawer-links-0934 {
+  color: #000000;
+  text-decoration: none;
+  margin-left: 25px;
+}
+.navaddsec-21 {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 780px) {
+  .navbar-links {
+    display: none;
+  }
+  .drawer {
+    margin-left: -25px;
+    height: 35px;
+    width: 35px;
+    display: block;
+    font-size: 1.2rem;
+    background-color: #e5f0da;
+    border: 0;
+  }
+
+  .logosection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+    width: 150px;
+    margin: auto;
+  }
+  .logosection > div:nth-child(1) {
+    width: 10%;
+  }
+  .logosection > div:nth-child(2) {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logosection > div:nth-child(3) {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .favbtn {
+    display: none;
+  }
+  .logbtn,
+  .cartbtn-0nav {
+    color: #015394;
+    margin-left: 15px;
+    border: 0;
+    font-size: 1.3rem;
+    background-color: rgb(255, 255, 255);
+  }
+  .navaddsec-21 {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+}
