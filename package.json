@@ -1,7 +1,6 @@
 {
   "name": "bath-specials",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.15",
     "@chakra-ui/react": "^2.4.5",
