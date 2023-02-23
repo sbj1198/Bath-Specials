@@ -19,23 +19,32 @@ Technologies used in the project:
 
 ## 💻 Screenshots
 
-**Home Page:**
-![Home Page](https://user-images.githubusercontent.com/49484642/214049412-b62130c6-f19b-449f-9b22-43a99cf41774.png)
-
-**Login Page:**
-![Login Page](https://user-images.githubusercontent.com/49484642/214050878-7b2bace5-6f63-453c-ab5d-dd60919f8b3d.png)
+**Landing Page:**
+![Landing Page](https://user-images.githubusercontent.com/105644684/202831484-08ebb230-11a6-4265-b504-09e2a0e93f22.JPG)
 
 **Product Page:**
-![Product Page](https://user-images.githubusercontent.com/49484642/214049453-8e0930ea-957d-4ef7-88a2-de7682f5c3dc.png)
-
-**Single Product Page:**
-![Single Product Page](https://user-images.githubusercontent.com/49484642/214049494-35508512-06f3-4bfb-bc2a-95ec473b74aa.png)
+![Product Page](https://user-images.githubusercontent.com/105644684/202831467-fe6e0554-02e2-42b1-affe-3c0814dfe733.JPG)
 
 **Cart Page:**
-![Cart Page](https://user-images.githubusercontent.com/49484642/214049471-3c26b539-e904-408c-8e3b-f6bb6dbc5a15.png)
+![Cart Page](https://user-images.githubusercontent.com/105644684/202831469-85e878e3-1b9a-4b6a-a0b4-bcd2eaad9470.JPG)
 
-**Admin Page:**
-![Admin Page](https://user-images.githubusercontent.com/49484642/214050842-c2778582-cd95-41ce-97ce-c73ef281ffef.png)
+**Payment Page:**
+![Payment Page](https://user-images.githubusercontent.com/105644684/202831471-f3e256e4-fff0-4acf-8faf-7ab5045c25b5.JPG)
+
+**Dashboard section (admin side):**
+![Dashboard section (admin side)](https://user-images.githubusercontent.com/105644684/202831472-65eb3730-0696-4f10-9721-f8c91ef0d449.JPG)
+
+**Category section (admin side):**
+![Category section (admin side)](https://user-images.githubusercontent.com/105644684/202831473-73ad6639-8848-42c5-8eff-a3d494200c75.JPG)
+
+**Add product section (admin side):**
+![Add product section (admin side)](https://user-images.githubusercontent.com/105644684/202831474-10b6dd09-6fbf-407f-92fe-8dbbf65ba7aa.JPG)
+
+**Edit product section (admin side):**
+![Add product section (admin side)](https://user-images.githubusercontent.com/105644684/202831476-a3b00510-314e-42a1-a267-040561ca7654.JPG)
+
+**Orders section (admin side):**
+![Orders section (admin side)](https://user-images.githubusercontent.com/105644684/202831480-054525e8-e7a5-4c14-a424-bbc2357a6cc9.JPG)
 
 
 ## ✨ Features 
@@ -74,7 +83,6 @@ git clone https://github.com/sbj1198/Bath-Specials.git
 Go to the project directory
 
 ```bash
-$ cd frontend          // go to client folder
 $ yarn # or npm i    // npm install packages
 $ npm run start        // run it locally
 
@@ -82,7 +90,7 @@ $ npm run start        // run it locally
 $ npm run build // this will compile the react code using webpack and generate a folder called docs in the root level
 ```
 
-## ✍ Authors 
+## ✍ Author
 
 - [@sbj1198](https://github.com/sbj1198)
 
