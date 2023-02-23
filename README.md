@@ -20,7 +20,7 @@ Technologies used in the project:
 ## 💻 Screenshots
 
 **Landing Page:**
-![Landing Page](https://user-images.githubusercontent.com/105644684/202831484-08ebb230-11a6-4265-b504-09e2a0e93f22.JPG)
+![Landing Page](https://user-images.githubusercontent.com/49484642/220926119-971a7845-2a00-4ea9-8125-7ffc0f1fae9a.png)
 
 **Product Page:**
 ![Product Page](https://user-images.githubusercontent.com/105644684/202831467-fe6e0554-02e2-42b1-affe-3c0814dfe733.JPG)
@@ -48,11 +48,20 @@ Technologies used in the project:
 
 
 ## ✨ Features 
-
-- Live previews
-- Fullscreen mode
-- Cross platform
-
+- #### `User side:-`
+    - Register and Login page
+    - Authentication using email & password
+    - Products page
+    - **Sorting & filtering:** by price, by rating, by sub-category
+    - Add to cart
+    - Payment page
+    - Data fetching using deployed api
+- #### `Admin side:-`
+    - Login using admin credentials
+    - **Pages:** Dashboard, category, add product and edit product
+    - Dashboard gives stats by graphs and piecharts showing total of products
+    - Detailed information of category and sub-category products on category page
+    - **CRUD** functionality
 
 ## 🚀 Demo
 
@@ -96,4 +105,4 @@ $ npm run build // this will compile the react code using webpack and generate a
 
 ##
 
-    
+
